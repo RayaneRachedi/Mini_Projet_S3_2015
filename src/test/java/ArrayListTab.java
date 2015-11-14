@@ -5,7 +5,7 @@ public class ArrayListTab {
 	private ArrayList<Integer> intArrayListTab;
 	private ArrayList<Float> floatArrayListTab;
 	private ArrayList<String> stringArrayListTab;
-	private ArrayList<Television> teleArrayListTab;
+	private ArrayList<Television> teleArrayListTab; // Classe crée
 	
 	public ArrayListTab() {
 		intArrayListTab = new ArrayList<Integer>();
