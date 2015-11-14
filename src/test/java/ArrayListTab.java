@@ -5,6 +5,7 @@ public class ArrayListTab {
 	private ArrayList<Integer> intArrayListTab;
 	private ArrayList<Float> floatArrayListTab;
 	private ArrayList<String> stringArrayListTab;
+	private ArrayList<Television> teleArrayListTab;
 	
 	public ArrayListTab() {
 		intArrayListTab = new ArrayList<Integer>();
@@ -34,6 +35,13 @@ public class ArrayListTab {
 			stringArrayListTab.add("fas");
 			stringArrayListTab.add("gga");
 			
+		teleArrayListTab = new ArrayList<Television>();
+			teleArrayListTab.add(new Television("Philips", 750));
+			teleArrayListTab.add(new Television("Thomson", 875));
+			teleArrayListTab.add(new Television("LG", 1125));
+			teleArrayListTab.add(new Television("Samsung", 1362));
+			teleArrayListTab.add(new Television("Sony", 1619));
+			
 	}
 
 	public ArrayList<Integer> getIntArrayListTab() {
@@ -58,6 +66,14 @@ public class ArrayListTab {
 
 	public void setStringArrayListTab(ArrayList<String> stringArrayListTab) {
 		this.stringArrayListTab = stringArrayListTab;
+	}
+
+	public ArrayList<Television> getTeleArrayListTab() {
+		return teleArrayListTab;
+	}
+
+	public void setTeleArrayListTab(ArrayList<Television> teleArrayListTab) {
+		this.teleArrayListTab = teleArrayListTab;
 	}
 	
 }

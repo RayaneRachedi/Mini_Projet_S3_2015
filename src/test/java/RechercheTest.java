@@ -151,4 +151,49 @@ public class RechercheTest {
 		
 	}
 	
+	@Test
+	public void TestTelevision() {
+		
+		Recherche<Television> teleRecherche = new Recherche<Television>(arrayListTab.getTeleArrayListTab());
+		
+		System.out.println("TestTelevisionArrayList : \n");
+		
+		System.out.println("Valeur : new Television(\"Philips\", 750)");
+		assertTrue(teleRecherche.RechercheValeur(new Television("Philips", 750)) == 0);
+		System.out.println(teleRecherche.RechercheValeur(new Television("Philips", 750)) + "\n");
+
+		System.out.println("Valeur : new Television(\"LG\", 1125)");
+		assertTrue(teleRecherche.RechercheValeur(new Television("LG", 1125)) == 2);
+		System.out.println(teleRecherche.RechercheValeur(new Television("LG", 1125)) + "\n");
+		
+		System.out.println("Valeur : new Television(\"Sony\", 1619)");
+		assertTrue(teleRecherche.RechercheValeur(new Television("Sony", 1619)) == 4);
+		System.out.println(teleRecherche.RechercheValeur(new Television("Sony", 1619)) + "\n");
+		
+		System.out.println("Valeur : new Television(\"Sony\", 1619)");
+		assertTrue(teleRecherche.RechercheValeur(new Television("Polaroid", 650)) == -1);
+		System.out.println(teleRecherche.RechercheValeur(new Television("Polaroid", 650)) + "\n");
+		
+		teleRecherche = new Recherche<Television>(staticTab.getTeleStaticTab());
+		
+		System.out.println("TestTelevisionStatic : \n");
+		
+		System.out.println("Valeur : new Television(\"Philips\", 750)");
+		assertTrue(teleRecherche.RechercheValeur(new Television("Philips", 750)) == 0);
+		System.out.println(teleRecherche.RechercheValeur(new Television("Philips", 750)) + "\n");
+
+		System.out.println("Valeur : new Television(\"LG\", 1125)");
+		assertTrue(teleRecherche.RechercheValeur(new Television("LG", 1125)) == 2);
+		System.out.println(teleRecherche.RechercheValeur(new Television("LG", 1125)) + "\n");
+		
+		System.out.println("Valeur : new Television(\"Sony\", 1619)");
+		assertTrue(teleRecherche.RechercheValeur(new Television("Sony", 1619)) == 4);
+		System.out.println(teleRecherche.RechercheValeur(new Television("Sony", 1619)) + "\n");
+		
+		System.out.println("Valeur : new Television(\"Sony\", 1619)");
+		assertTrue(teleRecherche.RechercheValeur(new Television("Polaroid", 650)) == -1);
+		System.out.println(teleRecherche.RechercheValeur(new Television("Polaroid", 650)) + "\n");
+		
+	}
+	
 }

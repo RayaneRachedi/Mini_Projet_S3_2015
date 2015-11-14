@@ -4,6 +4,7 @@ public class StaticTab {
 	Integer [] intStaticTab;
 	Float [] floatStaticTab;
 	String [] stringStaticTab;
+	Television [] teleStaticTab;
 	
 	public StaticTab() {
 		
@@ -25,7 +26,22 @@ public class StaticTab {
 			stringStaticTab[0] = "abc";
 			stringStaticTab[1] = "def";
 			stringStaticTab[2] = "ghi";
-	
+			
+		teleStaticTab = new Television[5];
+			teleStaticTab[0] = new Television("Philips", 750);
+			teleStaticTab[1] = new Television("Thomson", 875);
+			teleStaticTab[2] = new Television("LG", 1125);
+			teleStaticTab[3] = new Television("Samsung", 1362);
+			teleStaticTab[4] = new Television("Sony", 1619);		
+			
+	}
+
+	public Television[] getTeleStaticTab() {
+		return teleStaticTab;
+	}
+
+	public void setTeleStaticTab(Television[] teleStaticTab) {
+		this.teleStaticTab = teleStaticTab;
 	}
 
 	public Integer[] getIntStaticTab() {
