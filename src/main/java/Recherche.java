@@ -31,13 +31,6 @@ public class Recherche<T>{
 		do
 		{			
 			i = (tailleMax + tailleMin)/2;
-			
-		/*	System.out.println("**************************************************");
-			System.out.println("i = " + i);
-			System.out.println("tableau.get(i) : " + tableau.get(i));
-			System.out.println("tableau.get(i).compareTo(Objet) : " + tableau.get(i).compareTo(Objet));
-			System.out.println("sortie = " + sortie);
-			System.out.println("**************************************************"); */
 
 			// Valeur souhaitée plus petit que la valeur du tableau 
 			if ((tableau.get(i).compareTo(Objet)) > 0){
@@ -50,8 +43,7 @@ public class Recherche<T>{
 			else
 				tailleMin = i;
 			
-			///////////////////////////////////////////////
-			
+			// Si on a atteint l'extrême du tableau (min ou max)s
 			if ((tailleMax - tailleMin) <= 1)
 			{
 				if (tableau.get(tailleMax).compareTo(Objet) == 0)
@@ -65,11 +57,6 @@ public class Recherche<T>{
 			}
 			
 		}while(sortie == false);
-		
-		
-	/*	
-		System.out.println("sortie = " + sortie);
-		System.out.println("i final = " + i); */
 		
 		return i;
 	}
