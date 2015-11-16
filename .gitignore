@@ -1,3 +1,9 @@
 .settings/gradle/org.springsource.ide.eclipse.gradle.core.prefs
 bin/Library.class
 bin/LibraryTest.class
+.classpath
+.project
+.gradle/
+.settings/
+/.gradle/
+/.settings/
