@@ -43,15 +43,15 @@ public class TestTriTable {
 	@SuppressWarnings("rawtypes")
 	@Test
 	public void testTriTable_string() {
-		ArrayList<Comparable> tablInt = new ArrayList<Comparable>(Arrays.asList(new String[] {"aaa", "sgj", "564cv", "az"}));
+		ArrayList<Comparable> tablString = new ArrayList<Comparable>(Arrays.asList(new String[] {"aaa", "sgj", "564cv", "az"}));
 		ArrayList<Comparable> tablTrier = new ArrayList<Comparable>(Arrays.asList(new String[] {"564cv", "az", "aaa", "sgj"}));
 		try {
-			TriTabl.triArray(tablInt);
+			TriTabl.triArray(tablString);
 		} catch (NullArgumentException e) {
 			e.printStackTrace();
 			fail("Exception TriTabl : " + e);
 		}
-		assertFalse(TestTriTable.compareArrayList(tablInt, tablTrier));
+		assertFalse(TestTriTable.compareArrayList(tablString, tablTrier));
 	}
 	
 	
