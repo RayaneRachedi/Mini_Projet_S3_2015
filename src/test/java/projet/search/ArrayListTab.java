@@ -1,3 +1,4 @@
+package projet.search;
 import java.util.ArrayList;
 
 public class ArrayListTab {
@@ -5,7 +6,7 @@ public class ArrayListTab {
 	private ArrayList<Integer> intArrayListTab;
 	private ArrayList<Float> floatArrayListTab;
 	private ArrayList<String> stringArrayListTab;
-	private ArrayList<Television> teleArrayListTab; // Classe crée
+	private ArrayList<Television> teleArrayListTab; // Classe crï¿½e
 	
 	public ArrayListTab() {
 		intArrayListTab = new ArrayList<Integer>();

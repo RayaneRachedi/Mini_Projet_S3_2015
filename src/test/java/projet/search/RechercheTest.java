@@ -1,5 +1,8 @@
+package projet.search;
 import static org.junit.Assert.*;
 import org.junit.Test;
+
+import projet.search.Recherche;
 
 public class RechercheTest {
 	
