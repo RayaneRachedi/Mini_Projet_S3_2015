@@ -5,7 +5,8 @@ package projet.tri;
 
 /**
  * @author Latixel
- *
+ * Classe d'exception levée lorsqu'un argument d'une méthode/constructeur est null alors que ce n'est pas supporter.
+ * créer uniquement pour pouvoir nommé l'exception que l'on lève dans TriTabl.
  */
 public class NullArgumentException extends Exception {
 
@@ -18,7 +19,7 @@ public class NullArgumentException extends Exception {
 	 * 
 	 */
 	public NullArgumentException() {
-		// TODO Auto-generated constructor stub
+		this("null argument");
 	}
 
 	/**

@@ -13,7 +13,7 @@ import org.junit.Test;
 
 /**
  * @author Latixel
- *
+ * Classe de test JUnit destinée à tester la partie de tri.
  */
 public class TestTriTable {
 

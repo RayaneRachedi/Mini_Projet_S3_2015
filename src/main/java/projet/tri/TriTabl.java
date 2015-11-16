@@ -8,10 +8,16 @@ import java.util.Collections;
 
 /**
  * @author Latixel
- *
+ * Classe de tri.
  */
 public class TriTabl {
 
+	/**
+	 * Cette méthode statique permet de trier une liste d'objets.
+	 * Pour cela l'interface Comparable (avec compareTo) est utilisé pour pouvoir comparer 2 objets.
+	 * @param tabl arrayList d'élément(s) Comparable à trier
+	 * @throws NullArgumentException si la liste est null
+	 */
 	@SuppressWarnings({ "rawtypes", "unchecked" })
 	public static void triArray(ArrayList<Comparable> tabl) throws NullArgumentException {
 		if(tabl == null)
