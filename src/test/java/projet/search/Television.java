@@ -1,3 +1,4 @@
+package projet.search;
 
 public class Television implements Comparable<Television>{
 

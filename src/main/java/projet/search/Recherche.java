@@ -1,3 +1,4 @@
+package projet.search;
 import java.util.ArrayList;
 
 public class Recherche<T>{
@@ -32,18 +33,18 @@ public class Recherche<T>{
 		{			
 			i = (tailleMax + tailleMin)/2;
 
-			// Valeur souhaitée plus petit que la valeur du tableau 
+			// Valeur souhaitï¿½e plus petit que la valeur du tableau 
 			if ((tableau.get(i).compareTo(Objet)) > 0){
 				tailleMax = i;
 			}
-			// Valeur souhaitée égale à la valeur du tableau
+			// Valeur souhaitï¿½e ï¿½gale ï¿½ la valeur du tableau
 			else if ((tableau.get(i).compareTo(Objet)) == 0)
 				sortie = true;
-			// Valeur souhaitée plus grand que la valeur du tableau
+			// Valeur souhaitï¿½e plus grand que la valeur du tableau
 			else
 				tailleMin = i;
 			
-			// Si on a atteint l'extrême du tableau (min ou max)s
+			// Si on a atteint l'extrï¿½me du tableau (min ou max)s
 			if ((tailleMax - tailleMin) <= 1)
 			{
 				if (tableau.get(tailleMax).compareTo(Objet) == 0)
