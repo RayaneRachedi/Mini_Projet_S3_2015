@@ -1,6 +1,12 @@
+<<<<<<< HEAD
 .classpath
 .project
 .settings/gradle/org.springsource.ide.eclipse.gradle.core.prefs
 .gradle/
 .settings/
 bin/
+=======
+.settings/gradle/org.springsource.ide.eclipse.gradle.core.prefs
+bin/Library.class
+bin/LibraryTest.class
+>>>>>>> refs/remotes/origin/master
