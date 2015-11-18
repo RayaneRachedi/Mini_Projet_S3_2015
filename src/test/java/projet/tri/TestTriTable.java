@@ -19,7 +19,7 @@ public class TestTriTable {
 
 	/**
 	 * Test method for {@link projet.tri.TriTabl#triArray(java.util.ArrayList)}.
-	 * @throws NullArgumentException 
+	 * @throws NullArgumentException retourne une exception si la liste est null
 	 */
 	@Test(expected = NullArgumentException.class)
 	public void testTriArray_Null() throws NullArgumentException {

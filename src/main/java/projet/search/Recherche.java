@@ -8,6 +8,8 @@ public class Recherche<T>{
 	// Initialisation d'un tableau dynamique
 	/**
 	 * On initialise un tableau dynamique
+	 * 
+	 * @param tab liste d'élement dans lequel rechercher
 	 */
 	@SuppressWarnings("unchecked")
 	public Recherche(ArrayList<T> tab)
@@ -20,6 +22,7 @@ public class Recherche<T>{
 	// Initialisation d'un tableau statique
 	/**
 	 * On initialise un tableau statique
+	 * @param tab tableau statique dans lequel rechercher
 	 */
 	public Recherche(Comparable<T> [] tab)
 	{
@@ -33,6 +36,9 @@ public class Recherche<T>{
 	 * Cette methode permet de rechercher l'indice d'un objet se trouvant dans le tableau.
 	 * Pour cela l'interface Comparable (avec compareTo) est utilisee pour pouvoir appliquer
 	 * l'algorithme de recherche par dichotomie.
+	 * 
+	 * @param Objet objet dont on veut trouver son indice
+	 * @return retorune l'indice de l'objet s'il existe, sinon -1
 	 */
 	public int RechercheValeur(T Objet)
 	{
