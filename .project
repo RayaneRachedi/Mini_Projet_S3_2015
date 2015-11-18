@@ -24,10 +24,7 @@
 	<natures>
 		<nature>org.springsource.ide.eclipse.gradle.core.nature</nature>
 		<nature>org.eclipse.jdt.core.javanature</nature>
-<<<<<<< HEAD
 		<nature>org.eclipse.buildship.core.gradleprojectnature</nature>
-=======
->>>>>>> master
 		<nature>edu.umd.cs.findbugs.plugin.eclipse.findbugsNature</nature>
 	</natures>
 	<filteredResources>
