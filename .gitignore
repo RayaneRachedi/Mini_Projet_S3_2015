@@ -8,3 +8,4 @@ bin/LibraryTest.class
 /.gradle/
 /.settings/
 /bin/
+build

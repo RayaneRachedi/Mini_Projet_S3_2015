@@ -44,7 +44,7 @@ public class Recherche<T>{
 	{
 		int tailleMax = tableau.size()-1;
 		int tailleMin = 0;
-		Boolean sortie = false;
+		boolean sortie = false;
 		int i;	
 		do
 		{			

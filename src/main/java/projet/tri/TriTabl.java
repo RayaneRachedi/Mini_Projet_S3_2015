@@ -11,6 +11,10 @@ import java.util.Collections;
  * Classe de tri.
  */
 public class TriTabl {
+	/**
+	 * Constructeur par défault mis en privé pour empécher quelle soit instanciée.
+	 */
+	private TriTabl() {}
 
 	/**
 	 * Cette méthode statique permet de trier une liste d'objets.
