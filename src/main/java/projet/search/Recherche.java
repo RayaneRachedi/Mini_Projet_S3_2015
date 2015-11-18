@@ -6,6 +6,9 @@ public class Recherche<T>{
 	private ArrayList<Comparable<T>> tableau;
 	
 	// Initialisation d'un tableau dynamique
+	/**
+	 * On initialise un tableau dynamique
+	 */
 	@SuppressWarnings("unchecked")
 	public Recherche(ArrayList<T> tab)
 	{
@@ -15,6 +18,9 @@ public class Recherche<T>{
 	}
 	
 	// Initialisation d'un tableau statique
+	/**
+	 * On initialise un tableau statique
+	 */
 	public Recherche(Comparable<T> [] tab)
 	{
 		tableau = new ArrayList<Comparable<T>>();
@@ -23,6 +29,11 @@ public class Recherche<T>{
 	}
 	
 	// Algorithme de recherche par dichotomie
+	/**
+	 * Cette methode permet de rechercher l'indice d'un objet se trouvant dans le tableau.
+	 * Pour cela l'interface Comparable (avec compareTo) est utilisee pour pouvoir appliquer
+	 * l'algorithme de recherche par dichotomie.
+	 */
 	public int RechercheValeur(T Objet)
 	{
 		int tailleMax = tableau.size()-1;
