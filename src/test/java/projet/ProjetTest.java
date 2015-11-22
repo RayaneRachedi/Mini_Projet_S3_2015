@@ -20,8 +20,8 @@ import projet.tri.TestTriTable;
 @RunWith(Suite.class)
 @Suite.SuiteClasses({
 	TestTriTable.class,
-	RechercheTest.class
+	RechercheTest.class,
 })
 public class ProjetTest {
-    // aucun test car effectué avec JUnit
+	// aucun test car effectué avec JUnit
 }

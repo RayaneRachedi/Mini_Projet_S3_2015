@@ -40,7 +40,7 @@ public class Recherche<T>{
 	 * @param Objet objet dont on veut trouver son indice
 	 * @return retorune l'indice de l'objet s'il existe, sinon -1
 	 */
-	public int RechercheValeur(T Objet)
+	public int rechercheValeur(T Objet)
 	{
 		int tailleMax = tableau.size()-1;
 		int tailleMin = 0;

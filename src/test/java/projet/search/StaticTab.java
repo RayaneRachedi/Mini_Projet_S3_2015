@@ -2,10 +2,10 @@ package projet.search;
 
 public class StaticTab {
 
-	Integer [] intStaticTab;
-	Float [] floatStaticTab;
-	String [] stringStaticTab;
-	Television [] teleStaticTab;
+	private Integer [] intStaticTab;
+	private Float [] floatStaticTab;
+	private String [] stringStaticTab;
+	private Television [] teleStaticTab;
 	
 	public StaticTab() {
 		
